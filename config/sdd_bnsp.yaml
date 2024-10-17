@@ -1,0 +1,41 @@
+data_scale: 0.005
+learning_rate: 0.0000003
+num_epochs: 1000
+future_length: 12
+gpu_index: 0
+kld_reg: 1
+num_workers: 0
+past_length: 8
+train_b_size: 512
+input_size: 4
+embedding_size: 64
+rnn_size: 256
+output_size: 16
+enc_size:
+- 64
+- 256
+dec_size:
+- 512
+- 256
+- 512
+dec_size_cvae:
+- 1024
+- 512
+- 1024
+enc_dest_size_cvae:
+- 8
+- 16
+enc_latent_size_cvae:
+- 8
+- 50
+enc_past_size_cvae:
+- 512
+- 256
+fdim: 16
+zdim: 16
+sigma: 1.3
+
+
+
+
+
